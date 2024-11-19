@@ -46,6 +46,7 @@ public class ForestFire {
         }
     private static int wind(){
         Scanner wind = new Scanner(System.in);
+        System.out.println();
         System.out.println("Are there frequent gusts of wind?" );
         String y = wind.nextLine();
         if(y.equalsIgnoreCase("yes")){

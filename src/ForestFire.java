@@ -18,8 +18,7 @@ public class ForestFire {
     Introduction();
     int stat1 = Humidity();
     int stat2 = wind();
-    String date = date();
-    String dates = GREEN+ date;
+    String date = GREEN + date();
     if(stat2 == 1){
         System.out.println(GREEN+ date);
         String warning = GREEN + "There is a little to low chance of a wildfire happening." + RESET;
@@ -103,10 +102,12 @@ public class ForestFire {
             int numm = wind.nextInt();
             while(numd >= 1){
                 System.out.println(RED + BLACK + "Enter the wind-speed in km/h: " + RESET);
-                numsum = numsum + wind.nextInt();
+                numsum = numm+ wind.nextInt();
                 numd--;
+
             }
-            return numsum/num;
+            int z = numsum/num;
+            return z;
         }
         if(y.equalsIgnoreCase("no")) {
             return 1;

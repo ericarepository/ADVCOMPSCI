@@ -37,7 +37,7 @@ public class ForestFire {
         if(stat1 >= 15 && stat2 >= 25){
             System.out.println(GREEN+ date);
             String warning = (RED + BLACK + "WARNING! There is a high chance of a forest fire in your area! " +
-                    "Close all your doors and windows, and shut of the gas. Stay safe!" +
+                    "Close all your doors and windows, and shut off the gas. Stay safe!" +
                     "The average humidity was " + arr[0] +"%, "
             + "The average wind-speed  was " + arr[1] +"km/h. " + RESET);
             System.out.println(warning);

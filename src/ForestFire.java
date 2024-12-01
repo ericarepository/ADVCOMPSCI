@@ -117,8 +117,8 @@ public class ForestFire {
                 numd--;
 
             }
-            int z = numsum / num;
-            return z;
+            int average = numsum / num;
+            return average;
         }
         if (y.equalsIgnoreCase("no")) {
             return 1;

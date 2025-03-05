@@ -1,8 +1,0 @@
-
-    https://api.aviationstack.com/v1/flights
-? access_key = e5bfac5062ccb2b495a836d853feb02d
-    // optional parameters:
-
-    & limit = 100
-    & offset = 0
-    & callback = MY_CALLBACK
